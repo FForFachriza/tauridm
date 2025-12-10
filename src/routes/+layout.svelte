@@ -5,8 +5,6 @@
 	let { children } = $props();
 </script>
 
-<main class="antialiased font-sans">
 	<Sidebar>
 		{@render children()}
 	</Sidebar>
-</main>
