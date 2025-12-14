@@ -18,7 +18,8 @@
 		"@tauri-apps/api": "^2",
 		"@tauri-apps/plugin-opener": "^2",
 		"@tauri-apps/plugin-shell": "~2",
-		"maria2": "^0.4.1"
+		"maria2": "^0.4.1",
+		"pretty-bytes": "^7.1.0"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.4.0",
@@ -37,11 +38,13 @@
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.13.0",
 		"globals": "^16.5.0",
+		"mode-watcher": "^1.1.0",
 		"prettier": "^3.6.2",
 		"prettier-plugin-svelte": "^3.4.0",
 		"prettier-plugin-tailwindcss": "^0.7.1",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
+		"svelte-sonner": "^1.0.5",
 		"tailwind-merge": "^3.3.1",
 		"tailwind-variants": "^3.2.2",
 		"tailwindcss": "^4.1.17",
