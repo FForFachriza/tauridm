@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { PlusIcon } from '@lucide/svelte';
 	import * as Dialog from '$lib/components/ui/dialog/index.js';
-	import Button from './components/ui/button/button.svelte';
-	import Input from './components/ui/input/input.svelte';
+	import { Button } from './ui/button';
+	import { Input } from './ui/input';
 </script>
 
 <div class="flex flex-row justify-between p-4 border-b h-[61px]">

@@ -1,10 +1,10 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
-	import { Button } from './components/ui/button';
 	import { sidebarItems } from './sidebar-items';
 	import { page } from '$app/state';
-	import { cn } from './utils';
 	import Navbar from './Navbar.svelte';
+	import { Button } from './ui/button';
+	import { cn } from '$lib/utils';
 
 	interface Props {
 		children: Snippet;
